@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-top: 25px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid white;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+body{
+    background-color: grey;
+}
+
+h1{
+    color: white;
+    margin-top: 35px;
+    margin-left: 30px
+}
+
+p {
+  background-color: lightgrey;
+  width: 300px;
+  border: 15px solid skyblue;
+  padding: 50px;
+  margin: 30px;
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+h2{
+    color: skyblue;
+    margin-top: 35px;
+    margin-left: 30px;
+    
+}
